@@ -1,0 +1,20 @@
+#spring:
+#  jpa:
+#    show-sql : true
+#  messages:
+#    basename: esakki
+#      
+#    hibernate:
+#      ddl-auto: update
+#      
+#    properties:
+#      hibernate:
+#        dialect : org.hibernate.dialect.MySQL5InnoDBDialect
+#        
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/classicmodels
+#    username: newuser
+#    password: password
+    
+welcome:
+  messages: application_dev_welcome
