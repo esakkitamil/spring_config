@@ -16,5 +16,5 @@ spring:
         
  datasource:
   url: jdbc:mysql://localhost:3306/classicmodels
-  username: ubuntu
+  username: newuser
   password: password
