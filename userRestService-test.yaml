@@ -17,4 +17,4 @@ spring:
     password: password
     
 welcome:
-  messages: userRestService_test_welcome
+  messages: userRestService_test_changes welcome
