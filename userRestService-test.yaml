@@ -1,20 +1,20 @@
-welocme:
- message: hi from test 
-
 spring:
- jpa:
-  show-sql : true
-#  profiles :  
-#    active : "dev"
-    
-  hibernate:
-   ddl-auto: update
+  jpa:
+    show-sql : true
+  messages:
+    basename: esakki
       
-  properties:
-   hibernate:
-    dialect : org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+      
+    properties:
+      hibernate:
+        dialect : org.hibernate.dialect.MySQL5InnoDBDialect
         
- datasource:
-  url: jdbc:mysql://localhost:3306/classicmodels
-  username: newuser
-  password: password
+  datasource:
+    url: jdbc:mysql://localhost:3306/classicmodels
+    username: newuser
+    password: password
+    
+welcome:
+  messages: userRestService_test_welcome
