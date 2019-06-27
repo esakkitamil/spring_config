@@ -1,0 +1,7 @@
+redis:
+   cache:
+     downstream:
+       enabled: true
+       default:
+         host: localhost
+         port: 6379
