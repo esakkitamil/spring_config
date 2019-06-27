@@ -1,4 +1,10 @@
-
+redis:
+   cache:
+     downstream:
+       enabled: true
+       default:
+         host: from userdev
+         port: 1319
     
 welcome:
   messages: userRestService_dev_welcome
