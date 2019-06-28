@@ -1,7 +1,4 @@
-spring:
- jpa:
-   show-sql : true
-           
+spring:           
  datasource:
    url: jdbc:mysql://localhost:3306/classicmodels
    username: newuser
