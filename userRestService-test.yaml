@@ -1,9 +1,0 @@
-spring:
-  jpa:        
-  datasource:
-    url: jdbc:mysql://localhost:3306/classicmodels
-    username: newuser
-    password: password
-    
-welcome:
-  messages: userRestService_test_changes welco
