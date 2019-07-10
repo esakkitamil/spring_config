@@ -10,5 +10,5 @@ spring:
        dialect: org.hibernate.dialect.MySQL5Dialect
        
  datasource:
-  url: jdbc:mysql://192.168.14.115:3306/classicmodels
+  url: jdbc:mysql://localhost:3306/classicmodels
          
